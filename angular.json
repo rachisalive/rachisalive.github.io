@@ -125,7 +125,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://rachisalive.github.io/",
+            "baseHref": "/",
             "name": "rachisalive",
             "email": "rachelodumu@gmail.com",
             "branch": "master",
