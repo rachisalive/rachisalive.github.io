@@ -121,9 +121,16 @@
               "devServerTarget": "rachisalive-github-io:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "rachisalive-github-io"
+  "defaultProject": "rachisalive-github-io",
+  "cli": {
+    "analytics": "4d5597c8-0a8c-4fdd-a00e-b26a7084bdd0"
+  }
 }
