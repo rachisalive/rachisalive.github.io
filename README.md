@@ -24,7 +24,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deployment to GH-Pages via Angular CLI
 
-Run `ng deploy --message="Insert deployment description here"` & the rest is magic ✨
+Run `ng deploy --message="Insert deployment description here" --cname=rachelodumu.com` & the rest is magic ✨
 
 ## Further help
 
