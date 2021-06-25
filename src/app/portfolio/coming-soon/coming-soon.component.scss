@@ -1,12 +1,13 @@
 .coming-soon
 {
+  h1{font-size: 1.5rem;}
   height: 100%;
-  background: rgb(255,202,86);
-  background: linear-gradient(135deg, rgba(255,202,86,1) 50%, rgba(251,186,46,1) 51%);
-  .linkedin, .github, .twitter
+  background: rgba(0, 0, 0, 0.852);
+  // background: linear-gradient(135deg, rgba(255,202,86,1) 50%, rgba(251,186,46,1) 51%);
+  .linkedin, .github, .twitter, .vinstripe
   {
     height: 120px;
     width: 120px;
-    font-size: 120px;
+    font-size: 60px;
   }
 }
