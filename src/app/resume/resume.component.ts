@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { pdfDefaultOptions } from 'ngx-extended-pdf-viewer';
 
 @Component({
   selector: 'app-resume',
@@ -8,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 export class ResumeComponent implements OnInit
 {
   pdf: string = './assets/pdfs/Rachel_Odumu_2021_Resume.pdf';
-  constructor() { }
+  constructor()
+  {
+    pdfDefaultOptions.assetsFolder = 'bleeding-edge';
+  }
 
   ngOnInit(): void
   {
