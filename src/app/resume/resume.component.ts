@@ -8,7 +8,7 @@ import { pdfDefaultOptions } from 'ngx-extended-pdf-viewer';
 })
 export class ResumeComponent implements OnInit
 {
-  pdf: string = './assets/pdfs/Rachel_Odumu_2021_Resume.pdf';
+  pdf: string = './assets/pdfs/Rachel_Odumu_2022_Resume.pdf';
   constructor()
   {
     pdfDefaultOptions.assetsFolder = 'bleeding-edge';
